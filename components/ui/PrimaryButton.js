@@ -1,7 +1,7 @@
 import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import React from 'react';
-import Colors from './colors';
+import Colors from '../colors';
 
 export default function PrimaryButton({ children, onPress }) {
 	function pressHandler() {
